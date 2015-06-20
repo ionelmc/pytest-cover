@@ -91,6 +91,7 @@ test_script:
   - "%PYTHON_HOME%\\Scripts\\tox --version"
   - "%PYTHON_HOME%\\Scripts\\virtualenv --version"
   - "%PYTHON_HOME%\\Scripts\\pip --version"
+  - "powershell ci\\enable-rdp.ps1"
   - "%WITH_COMPILER% %PYTHON_HOME%\\Scripts\\tox"
 artifacts:
   - path: dist\*
