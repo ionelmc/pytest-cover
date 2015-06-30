@@ -90,7 +90,7 @@ setup(
     author_email='marc.schlaich@gmail.com',
     maintainer='Ionel Cristian Mărieș',
     maintainer_email='contact@ionelmc.ro',
-    url='https://github.com/ionelmc/pytest-cov',
+    url='https://github.com/schlamar/pytest-cov',
     packages=find_packages('src'),
     package_dir={'': 'src'},
     py_modules=[splitext(basename(path))[0] for path in glob('src/*.py')],

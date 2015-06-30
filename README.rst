@@ -19,24 +19,24 @@ pytest-cov
     :target: https://readthedocs.org/projects/pytest-cov
     :alt: Documentation Status
 
-.. |travis| image:: http://img.shields.io/travis/ionelmc/pytest-cov/master.svg?style=flat&label=Travis
+.. |travis| image:: http://img.shields.io/travis/schlamar/pytest-cov/master.svg?style=flat&label=Travis
     :alt: Travis-CI Build Status
-    :target: https://travis-ci.org/ionelmc/pytest-cov
+    :target: https://travis-ci.org/schlamar/pytest-cov
 
-.. |appveyor| image:: https://img.shields.io/appveyor/ci/ionelmc/pytest-cov/master.svg?style=flat&label=AppVeyor
+.. |appveyor| image:: https://img.shields.io/appveyor/ci/schlamar/pytest-cov/master.svg?style=flat&label=AppVeyor
     :alt: AppVeyor Build Status
-    :target: https://ci.appveyor.com/project/ionelmc/pytest-cov
+    :target: https://ci.appveyor.com/project/schlamar/pytest-cov
 
-.. |coveralls| image:: http://img.shields.io/coveralls/ionelmc/pytest-cov/master.svg?style=flat&label=Coveralls
+.. |coveralls| image:: http://img.shields.io/coveralls/schlamar/pytest-cov/master.svg?style=flat&label=Coveralls
     :alt: Coverage Status
-    :target: https://coveralls.io/r/ionelmc/pytest-cov
+    :target: https://coveralls.io/r/schlamar/pytest-cov
 
-.. |codecov| image:: http://img.shields.io/codecov/c/github/ionelmc/pytest-cov/master.svg?style=flat&label=Codecov
+.. |codecov| image:: http://img.shields.io/codecov/c/github/schlamar/pytest-cov/master.svg?style=flat&label=Codecov
     :alt: Coverage Status
-    :target: https://codecov.io/github/ionelmc/pytest-cov
+    :target: https://codecov.io/github/schlamar/pytest-cov
 
-.. |landscape| image:: https://landscape.io/github/ionelmc/pytest-cov/master/landscape.svg?style=flat
-    :target: https://landscape.io/github/ionelmc/pytest-cov/master
+.. |landscape| image:: https://landscape.io/github/schlamar/pytest-cov/master/landscape.svg?style=flat
+    :target: https://landscape.io/github/schlamar/pytest-cov/master
     :alt: Code Quality Status
 
 .. |version| image:: http://img.shields.io/pypi/v/pytest-cov.svg?style=flat
@@ -59,9 +59,9 @@ pytest-cov
     :alt: Supported imlementations
     :target: https://pypi.python.org/pypi/pytest-cov
 
-.. |scrutinizer| image:: https://img.shields.io/scrutinizer/g/ionelmc/pytest-cov/master.svg?style=flat
+.. |scrutinizer| image:: https://img.shields.io/scrutinizer/g/schlamar/pytest-cov/master.svg?style=flat
     :alt: Scrutinizer Status
-    :target: https://scrutinizer-ci.com/g/ionelmc/pytest-cov/
+    :target: https://scrutinizer-ci.com/g/schlamar/pytest-cov/
 
 Pytest plugin for measuring coverage.
 
