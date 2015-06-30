@@ -88,8 +88,6 @@ setup(
     long_description='%s\n%s' % (read('README.rst'), re.sub(':[a-z]+:`~?(.*?)`', r'``\1``', read('CHANGELOG.rst'))),
     author='Marc Schlaich',
     author_email='marc.schlaich@gmail.com',
-    maintainer='Ionel Cristian Mărieș',
-    maintainer_email='contact@ionelmc.ro',
     url='https://github.com/schlamar/pytest-cov',
     packages=find_packages('src'),
     package_dir={'': 'src'},
