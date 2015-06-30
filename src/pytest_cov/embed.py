@@ -18,7 +18,8 @@ import os
 
 def multiprocessing_start(obj):
     cov = init()
-    multiprocessing.util.Finalize(None, multiprocessing_finish, args=(cov,), exitpriority=1000)
+    if cov:
+        multiprocessing.util.Finalize(None, multiprocessing_finish, args=(cov,), exitpriority=1000)
 
 
 def multiprocessing_finish(cov):
