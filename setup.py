@@ -126,7 +126,7 @@ setup(
     },
     entry_points={
         'pytest11': [
-            'pytest_cov = pytest_cover.plugin',
+            'pytest_cov = pytest_cov.plugin',
         ],
         'console_scripts': [
         ]

@@ -4,4 +4,4 @@ Usage
 
 To use pytest-cover in a project::
 
-	import pytest_cover
+	import pytest_cov
