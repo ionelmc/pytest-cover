@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 * Avoid warning about missing coverage data (just like ``coverage.control.process_startup``).
+* Don't setup the multiprocessing finalizer if there's no coverage active.
 
 2.0.0 (2015-06-29)
 ------------------
