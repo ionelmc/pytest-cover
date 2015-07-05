@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.0.1 (2015-07-06)
+------------------
+
+* Avoid warning about missing coverage data (just like ``coverage.control.process_startup``).
+
 2.0.0 (2015-06-29)
 ------------------
 
