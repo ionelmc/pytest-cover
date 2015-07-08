@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.0.2 (2015-07-08)
+------------------
+
+* Fixed a race condition when running with xdist (all the workers tried to combine the files).
+
 2.0.1 (2015-07-06)
 ------------------
 
