@@ -91,9 +91,8 @@ setup(
     maintainer='Ionel Cristian Mărieș',
     maintainer_email='contact@ionelmc.ro',
     url='https://github.com/ionelmc/pytest-cover',
-    packages=find_packages('src'),
-    package_dir={'': 'src'},
-    py_modules=[splitext(basename(path))[0] for path in glob('src/*.py')],
+    packages=[],
+    py_modules=['bogus'],
     include_package_data=True,
     zip_safe=False,
     classifiers=[
@@ -119,23 +118,6 @@ setup(
         'cover', 'coverage', 'pytest', 'py.test', 'distributed', 'parallel',
     ],
     install_requires=[
-        'pytest>=2.6.0',
-        'coverage>=3.7.1'
+        'pytest-cov>=2.0',
     ],
-    extras_require={
-    },
-    entry_points={
-        'pytest11': [
-            'pytest_cov = pytest_cover.plugin',
-        ],
-        'console_scripts': [
-        ]
-    },
-    cmdclass={
-        'build': BuildWithPTH,
-        'easy_install': EasyInstallWithPTH,
-        'install_lib': InstallLibWithPTH,
-        'develop': DevelopWithPTH,
-        'genpth': GeneratePTH,
-    },
 )
